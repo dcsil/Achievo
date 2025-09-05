@@ -1,0 +1,9 @@
+# Use Cases
+
+1. Use Cases Title
+   - Use case description
+   - ...
+2. ...
+3. ...
+
+<!-- At least 3, and no more than 6 use cases should be specified -->
