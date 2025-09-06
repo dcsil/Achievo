@@ -1,6 +1,6 @@
 # Jane Doe
 
-![Jane Doe Profile](./generic_woman.jpg)
+![Jane Doe Profile](./pictures/generic_woman.jpg)
 
 - Software Developer
 - email@example.com
