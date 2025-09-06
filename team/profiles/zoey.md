@@ -1,6 +1,6 @@
-# Jane Doe
+# Zoey Xie
 
-![Jane Doe Profile](./generic_woman.jpg)
+![Zoey Xie Profile](./pictures/zoey.jpg)
 
 - Student/Software Developer/Consultant
 - zoey.freya.xie@gmail.com
@@ -9,7 +9,7 @@
 
 - [GitHub](https://github.com/caratooo)
 - [LinkedIn](https://www.linkedin.com/in/zoey-xie/)
-- [Resume](#)
+- [Resume](./resumes/zoey.pdf)
 
 ## About Jane
 
