@@ -9,7 +9,7 @@
 
 - [GitHub](https://github.com/caratooo)
 - [LinkedIn](https://www.linkedin.com/in/zoey-xie/)
-- [Resume](./resumes/zoey)
+- [Resume](./resumes/zoey.pdf)
 
 ## About Jane
 
