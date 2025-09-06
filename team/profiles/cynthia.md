@@ -9,6 +9,7 @@
 
 - [GitHub](https://github.com/cyn900)
 - [LinkedIn](https://www.linkedin.com/in/cynthiazhou123/)
+- [Resume](https://docs.google.com/document/d/10f76RCOsBbxEBbGMo1JlRSYagFQKRUQW/edit?usp=sharing&ouid=116786383790878098052&rtpof=true&sd=true)
 
 ## About Me
 
