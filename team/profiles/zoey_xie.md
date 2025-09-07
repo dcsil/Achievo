@@ -1,6 +1,6 @@
 # Zoey Xie
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/5b2885a8-3fd5-4a14-b393-dec295b2b375" />
+<img width="300" height="300" alt="image" src="./pictures/zoey_xie.png"/>
 
 - Student/Software Developer/Consultant
 - zoey.freya.xie@gmail.com
@@ -9,7 +9,7 @@
 
 - [GitHub](https://github.com/caratooo)
 - [LinkedIn](https://www.linkedin.com/in/zoey-xie/)
-- [Resume](./resumes/zoey.pdf)
+- [Resume](./resumes/zoey_xie.pdf)
 
 ## About Me
 
