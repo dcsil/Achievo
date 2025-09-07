@@ -17,12 +17,12 @@ Hi! I'm Zoey, a 4th year student studying Computer Science. On the technical and
 
 ## Strengths
 
-- Adaptibility
-- Software practices and knowledge
+- Adaptibility and quick learning
+- Software development practices and knowledge -- but is still learning!
 - Communication and client understanding
 
 ## Weaknesses
 
-- Technical knowledge
+- Taking on too many things at once
 - Organization
-- Getting overwhelmed
+- Getting overwhelmed if there are too many things going on at once (the intersection of the first two)
