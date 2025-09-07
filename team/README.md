@@ -6,12 +6,12 @@ People at CatPnadas
 - [Anushka Sharma](./profiles/anushka_sharma.md)
 - [Cynthia Zhou](./profiles/cynthia_zhou.md)
 - [Hongzip Kim](./profiles/hongzip_kim.md)
-- [Zoey Xie](./profiles/zoey.md)
+- [Zoey Xie](./profiles/zoey_xie.md)
 
 ### Team Leader
 
-[Zoey Xie](./profiles/zoey.md)
-- Has familiarity with creating and submitting GitHub releases.
+[Zoey Xie](./profiles/zoey_xie.md)
+- Has familiarity with creating and submitting GitHub releases. Handled most submissions in CSC301.
 - Is a Google Calendar enthusiast.
 
 #### Responsibilities
