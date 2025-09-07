@@ -9,7 +9,7 @@
 
 - [GitHub](https://github.com/aanushkasharma)
 - [LinkedIn](https://www.linkedin.com/in/anushka-sharma-28ba2525b/)
-- [Resume](./resumes/anushka.pdf)
+- [Resume](./resumes/anushka_sharma.pdf)
 
 ## About Me
 
