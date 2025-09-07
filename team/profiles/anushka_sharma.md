@@ -2,7 +2,7 @@
 
 <img width="300" height="300" alt="image" src="https://github.com/hongzipkim/CatPnadas/blob/master/team/profiles/pictures/anushka_sharma.jpg" />
 
-- Student/Data & Software Engineer
+- Student, Data/Software Engineer
 - aanushka.sharma@mail.utoronto.ca
 
 ## Links
