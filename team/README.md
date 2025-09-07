@@ -3,7 +3,7 @@
 People at CatPnadas
 ---
 
-- [Anushka Sharma](./profiles/anushka.md)
+- [Anushka Sharma](./profiles/anushka_sharma.md)
 - [Cynthia Zhou](./profiles/cynthia_zhou.md)
 - [Hongzip Kim](./profiles/hongzip_kim.md)
 - [Zoey Xie](./profiles/zoey.md)
