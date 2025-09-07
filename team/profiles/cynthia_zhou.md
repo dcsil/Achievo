@@ -1,6 +1,6 @@
 # Cynthia Zhou
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/2def8a8e-22e8-40fc-8699-ca31dd3a8a3a" />
+<img src="./pictures/cynthia_zhou.JPG" alt="Cynthia Zhou Profile" width="200"/>
 
 - Student/Software Developer
 - zhoucynthia8@gmail.com
