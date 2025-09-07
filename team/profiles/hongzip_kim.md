@@ -2,7 +2,7 @@
 
 <img src="./pictures/hongzip_kim.jpeg" alt="Hongzip Kim Profile" width="200"/>
 
-- Software Developer
+- Student/Data Analyst/Software Developer
 - hongzip.kim@mail.utoronto.ca
 
 ## Links
