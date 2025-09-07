@@ -20,7 +20,6 @@ Hongzip is a final-year Computer Science and Statistics student at the Universit
 - Quick learner / adaptable
 - Strong communicator 
 - Collaborative and team-oriented
-- BONUS: can be easily swayed when bribed with bubble tea
 
 ## Weaknesses
 
