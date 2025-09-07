@@ -9,7 +9,7 @@
 
 - [GitHub](https://github.com/hongzipkim)
 - [LinkedIn](https://www.linkedin.com/in/hongzipkim/)
-- [Resume](https://drive.google.com/file/d/1M2DJe94HsbHy8yQ_i1xHbJtXrxijJxGI/view?usp=sharing)
+- [Resume](./resumes/hongzip_kim.pdf)
 
 ## About Hongzip
 
