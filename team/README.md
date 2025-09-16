@@ -1,6 +1,6 @@
-[CatPnadas Principles](./principles.md)
+[Achievo Principles](./principles.md)
 
-People at CatPnadas
+People at Achievo
 ---
 
 - [Anushka Sharma](./profiles/anushka_sharma.md)
