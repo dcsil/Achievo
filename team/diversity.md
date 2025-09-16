@@ -31,7 +31,7 @@ In terms of technical expertise, while we are well-rounded in AI, full-stack dev
 We recognize that our shared backgrounds may introduce unconscious bias into our design, such as assuming students have equal access to technology, focusing too heavily on North American education systems, or oversimplifying mental health challenges based on personal experiences. 
 
 
-### Subject Matter Experts
+## Subject Matter Experts
 
 As students, we lack the perspective of educators or counselors who guide and help students with organizational or mental health related troubles. They would provide additional insight on their experiences of solutions that worked for students. As well, because we want to incorporate a gamification element, we may contact professionals in psychology to ask for their advice on how to best gamify our product. Lastly, as a team of 5 students, we are too small of a sample size to accurately predict the needs of the entire North American student population. So, we will reach out to more students through surveys to gather more research.
 
@@ -40,6 +40,6 @@ As students, we lack the perspective of educators or counselors who guide and he
 While our team brings a strong mix of technical skills, we recognize that our collective experiences may not fully reflect the diversity of the broader student population. Our current perspectives, while valuable, may unintentionally limit our understanding of the wide challenges faced by students from different cultural, socio-economic, or neurodiverse backgrounds. Additionally, as a team of abled individuals, we may overlook important accessibility needs and lived experiences of students with disabilities. Despite these limitations, we are committed to building an inclusive and supportive product. To ensure our solution meets the needs of all students, we plan to actively diversify our user research and testing by engaging individuals with varying backgrounds, learning styles, and accessibility considerations. This approach will help us identify blind spots and design a tool that better supports the full range of student experiences.
 
 
-### How this can impact us
+## How this can impact us
 
 It is important for an education tool to be inclusive and accessible to diverse learners. Without inclusivity, the product risks losing credibility and trust, as users may perceive it as biased or limited in scope. We acknowledge that our team may lack certain perspectives, which could create gaps in how effectively we address different learner needs. To mitigate this, we actively seek feedback from subject matter experts and customers, using their input to continuously refine and improve the product.
