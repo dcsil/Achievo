@@ -7,6 +7,7 @@ People at CatPnadas
 - [Cynthia Zhou](./profiles/cynthia_zhou.md)
 - [Hongzip Kim](./profiles/hongzip_kim.md)
 - [Zoey Xie](./profiles/zoey_xie.md)
+- [Kathy Lee](./profiles/kathy_lee.md)
 
 ### Team Leader
 
