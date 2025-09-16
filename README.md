@@ -1,7 +1,7 @@
 # Achievo \(formerly CatPnadas\)
 
 <p align="center">
-    <img src="./logo.png" alt="Team Logo" width="400">
+    <img src="./logo-updated.png" alt="Team Logo" width="400">
 </p>
 
 What is Achievo?
