@@ -224,7 +224,8 @@ full CUJ table
     Try testing, debug when running into errors
   </td>
   <td width="550">
-    [screenshots to be added]
+    <img width="1225" height="102" alt="image" src="https://github.com/user-attachments/assets/ecee6143-801e-465f-a7f9-4344c2e46390" />
+
   </td>
   </tr>
 
@@ -249,6 +250,43 @@ full CUJ table
   </td>
   <td width="550">
     <img width="1157" height="541" alt="image" src="https://github.com/user-attachments/assets/44e708c9-3825-4e23-9fab-860129f03bb1" />
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+    15
+  </td>
+  <td>
+  Grant other developers permission to warehouse
+  </td>
+  <td width="550">
+    <img width="1285" height="505" alt="image" src="https://github.com/user-attachments/assets/d4a449c5-a9e1-4615-8a4b-93fb50d94eb1" />
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+    16
+  </td>
+  <td>
+    Try testing on SQL Editor in Databricks UI, discover permission issue for other developers, debugging with AI
+  </td>
+  <td width="550">
+    <img width="1020" height="530" alt="image" src="https://github.com/user-attachments/assets/9183a9a0-5d78-43e8-9124-a0467a3b19c5" />
+    <img width="1250" height="584" alt="image" src="https://github.com/user-attachments/assets/4097db59-8a21-453f-a1c7-fa3add197cf3" />
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+    17
+  </td>
+  <td>
+    Final testing on SQL Editor
+  </td>
+  <td width="550">
+    <img width="1266" height="683" alt="image" src="https://github.com/user-attachments/assets/0e21ad6d-2ff0-4fde-a005-eb16a95d9804" />
   </td>
   </tr>
 
