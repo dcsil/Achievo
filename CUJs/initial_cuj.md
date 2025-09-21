@@ -70,6 +70,8 @@ If running into errors on the Databricks UI, be sure  to use the Code Assistant 
 | Debug Errors | 30 min | 2 |
 | Testing | 20 min | 2 |
 
+**Total time**: #
+**Total switches**: #
 
 ## Detailed CUJ
 full CUJ table
@@ -90,6 +92,163 @@ full CUJ table
   </td>
   <td width="550">
     <img width="3022" height="1644" alt="image" src="https://github.com/user-attachments/assets/16f5206a-ce19-459f-905f-d635ef7cd64e" />
+  </td>
+  </tr>
+  
+  <tr>
+  <td>
+    2
+  </td>
+  <td>
+  Created a Databricks account by linking with Google account
+  </td>
+  <td width="550">
+    <img width="3022" height="1644" alt="image" src="https://github.com/user-attachments/assets/37e3ddf4-31d2-4920-871f-c3c64b8bb713" />
+  </td>
+  </tr>
+  
+  <tr>
+  <td>
+    3
+  </td>
+  <td>
+  Navigate to Access tokens tab in Developer settings
+  </td>
+  <td width="550">
+    <img width="1954" height="1070" alt="image" src="https://github.com/user-attachments/assets/7c7e2029-df9e-4b28-8aa3-3d6b275a7978" />
+  </td>
+  </tr>
+  
+  <tr>
+  <td>
+    4
+  </td>
+  <td>
+  Click Generate new token & copy your token for future use
+  </td>
+  <td width="550">
+    <img width="1442" height="604" alt="image" src="https://github.com/user-attachments/assets/21405582-b3e1-4569-981d-aba814d8ad44" />
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+    5
+  </td>
+  <td>
+  Open SQL Warehouse & click on Create SQL Warehouse 
+  </td>
+  <td width="550">
+    <img width="1468" height="670" alt="image" src="https://github.com/user-attachments/assets/0d056b90-7272-4b8d-b5ad-6da7d0241598" />
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+    6
+  </td>
+  <td>
+  Navigate to to Connection details tab
+  </td>
+  <td width="550">
+    <img width="887" height="281" alt="image" src="https://github.com/user-attachments/assets/efcc39ba-d651-42bc-86f1-b33c44bc835e" />
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+    7
+  </td>
+  <td>
+  Copy your Server hostname and HTTP path, & store in a file for future use
+  </td>
+  <td width="550">
+    <img width="1292" height="437" alt="image" src="https://github.com/user-attachments/assets/2b878ba5-868f-4d02-b42f-1365eb05d0db" />
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+    8
+  </td>
+  <td>
+  Copy sample Python code and open IDE
+  </td>
+  <td width="550">
+    <img width="818" height="732" alt="image" src="https://github.com/user-attachments/assets/54859d21-b59d-43d3-b4ff-b2b4a01eac85" />
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+    9
+  </td>
+  <td>
+  Install SQL Connector for Python library, i.e. `databricks-sql-connector` 
+  </td>
+  <td width="550">
+    <img width="803" height="120" alt="image" src="https://github.com/user-attachments/assets/7ccdf110-bd45-4b83-a306-faf86e84f5e7" />
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+    10
+  </td>
+  <td>
+  Paste copied code into Python file, and set `server_hostname`, `http_path`, and `access_token` parameters, and set ` _tls_no_verify=True` to avoid certificate-related errors
+  </td>
+  <td width="550">
+    <img width="891" height="34" alt="image" src="https://github.com/user-attachments/assets/26e926ee-0581-460b-bad3-9faf4a751e9b" />
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+    11
+  </td>
+  <td>
+  Use a cursor object to create a database and your desired table(s) by running `cursor.execute()` with your SQL query. Close your cursor & connection when done
+  </td>
+  <td width="550">
+    <img width="572" height="272" alt="image" src="https://github.com/user-attachments/assets/16180f48-fa12-48f8-a410-4180f25c126a" />
+    <img width="155" height="52" alt="image" src="https://github.com/user-attachments/assets/430cc0e1-59cd-4b7c-8dcb-313650d7b8e6" />
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+    12
+  </td>
+  <td>
+    Try testing, debug when running into errors
+  </td>
+  <td width="550">
+    [screenshots to be added]
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+    13
+  </td>
+  <td>
+  Local testing with SQL command
+  </td>
+  <td width="550">
+    <img width="340" height="87" alt="image" src="https://github.com/user-attachments/assets/5c0fb9f9-123d-4f9d-b9dc-84422842ca24" />
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+    14
+  </td>
+  <td>
+  Add developers to the workspace in Settings (click Manage beside Users section in the Identity and access tab)
+  </td>
+  <td width="550">
+    <img width="1157" height="541" alt="image" src="https://github.com/user-attachments/assets/44e708c9-3825-4e23-9fab-860129f03bb1" />
   </td>
   </tr>
 
