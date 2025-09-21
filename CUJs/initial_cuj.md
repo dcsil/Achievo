@@ -182,10 +182,10 @@ If running into errors on the Databricks UI, be sure to use the Code Assistant f
     8
   </td>
   <td>
-  Copy sample Python code and open IDE
+  Install SQL Connector for Python library, i.e. `databricks-sql-connector` 
   </td>
   <td width="550">
-    <img width="818" height="732" alt="image" src="https://github.com/user-attachments/assets/54859d21-b59d-43d3-b4ff-b2b4a01eac85" />
+    <img width="803" height="120" alt="image" src="https://github.com/user-attachments/assets/7ccdf110-bd45-4b83-a306-faf86e84f5e7" />
   </td>
   </tr>
 
@@ -194,10 +194,10 @@ If running into errors on the Databricks UI, be sure to use the Code Assistant f
     9
   </td>
   <td>
-  Install SQL Connector for Python library, i.e. `databricks-sql-connector` 
+  Copy sample Python code and open IDE
   </td>
   <td width="550">
-    <img width="803" height="120" alt="image" src="https://github.com/user-attachments/assets/7ccdf110-bd45-4b83-a306-faf86e84f5e7" />
+    <img width="818" height="732" alt="image" src="https://github.com/user-attachments/assets/54859d21-b59d-43d3-b4ff-b2b4a01eac85" />
   </td>
   </tr>
 
