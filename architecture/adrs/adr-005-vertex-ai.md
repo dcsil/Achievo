@@ -1,6 +1,6 @@
 # ADR 005: Vertex AI
 
-**Date:** 2025-09-30  
+**Date:** 2025-09-30 \
 **Status:** Proposed  
 
 ## Context  

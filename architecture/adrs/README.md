@@ -1,12 +1,48 @@
-## ADRs
-For any architectural/engineering decisions we make, we will create an ADR (Architectural Design Record) to keep track of what decision we made and why. This allows us to refer back to decisions in the future and see if the reasons we made a choice still holds true. This also allows for others to more easily understand the code.
+# Architectural Decision Records (ADRs)
+
+For any architectural/engineering decisions we make, we will create an ADR (Architectural Decision Record) to keep track of what decision we made and why. This allows us to refer back to decisions in the future and see if the reasons we made a choice still hold true. It also allows for others to more easily understand the code and reasoning behind our stack.
 
 **ADRs will follow this process:**
-* They will live in the repo, under a directory architecture/adrs
-* They will be written in markdown
-* They will follow the naming convention adr-NNN-<decision-title>.md
-* NNN will just be a counter starting at 001 and will allow us easily keep the records in chronological order.
+- They will live in the repo, under `architecture/adrs/`
+- They will be written in Markdown
+- They will follow the naming convention `adr-NNN-<decision-title>.md`
+- `NNN` will be a counter starting at `001`, keeping the records in chronological order
 
-**The common sections that each ADR should have are:**
-* Title, Context, Decision, Status, Consequences
-* Use this article as a reference: https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions
+**The common sections each ADR should have are:**
+- Title
+- Date
+- Status
+- Context
+- Decision
+- Consequences  
+- Alternatives Considered
+- References
+
+Reference: [Documenting Architecture Decisions (Cognitect Blog)](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
+
+---
+
+## Current ADRs & Tech Stack Summary
+
+Below is a summary of our current decisions, with links to full ADRs:
+
+- **[ADR 001: Canvas API](adr-001-canvas-api.md)**  
+  *Summary:* To reliably detect assignment submissions, we integrated with the official Canvas REST API. This ensures secure OAuth2 authentication, avoids fragile DOM scraping, and allows extensibility for future features like grades or reminders.  
+
+- **[ADR 002: Chrome Extension](adr-002-chrome-extension.md)**  
+  *Summary:* We chose to build a Chrome Extension for direct browser integration, enabling notifications, tab control, and easy access. This maximizes accessibility for students but limits us to Chrome users.  
+
+- **[ADR 003: Frontend TypeScript](adr-003-frontend-ts.md)**  
+  *Summary:* We use TypeScript for the frontend UI to improve reliability, tooling, and maintainability over plain JavaScript. This adds a build step but ensures stronger type safety and scalability.  
+
+- **[ADR 004: Frontend HTML & CSS (Tailwind)](adr-004-frontend-html-css.md)**  
+  *Summary:* TailwindCSS was selected for fast, consistent styling with responsive design out-of-the-box. It increases HTML verbosity but accelerates iteration and improves maintainability.  
+
+- **[ADR 005: Vertex AI](adr-005-vertex-ai.md)**  
+  *Summary:* For intelligent scheduling, we use Vertex AI (Gemini + OR) to combine reasoning with optimization. This enables robust schedule generation and export to `.ics` while introducing vendor lock-in and setup complexity.  
+
+- **[ADR 006: Databricks SQL Warehouse](adr-006-databricks-sql-warehouse.md)**  
+  *Summary:* We chose a SQL warehouse in Databricks for relational data integrity, scalability, and strong query performance. Its UI, AI agent, and documentation make it practical for both learning and production use.  
+
+- **[ADR 007: Python Flask Backend](adr-007-python-flask.md)**  
+  *Summary:* We use Python/Flask for the backend due to strong ecosystem support (Canvas API, Databricks, Vertex AI integrations), team proficiency, and lightweight API development. Flask’s flexibility reduces overhead and accelerates development.  

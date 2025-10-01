@@ -1,6 +1,6 @@
 ## ADR 003: Frontend TS
 
-**Date:** 2025-09-30
+**Date:** 2025-09-30 \
 **Status:** Proposed
 
 ## Context

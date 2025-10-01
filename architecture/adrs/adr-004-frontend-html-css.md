@@ -1,6 +1,6 @@
 # ADR 004: Frontend HTML, CSS (Tailwind)
 
-**Date:** 2025-09-30  
+**Date:** 2025-09-30 \
 **Status:** Proposed  
 
 ## Context  
