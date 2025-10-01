@@ -141,7 +141,7 @@ For the scope of our MVP, we have identified the following 6 CUJs, listed in seq
 8. The app recommends personalized break activities based on the onboarding quiz (e.g., go to the gym, get a snack, etc.).  
 9. Automatic sync with Canvas:  
    - When an assignment is submitted, a pop-up UI congratulates the user and marks the relevant task as completed.  
-10. The app allows users to open **blind boxes**.  
+10. The app allows users to open blind boxes.  
 11. Users can purchase blind boxes with in-game currency.  
 
 ## Non-Functional Requirements  
