@@ -21,7 +21,8 @@ We will create a Chrome Extension that is accessible in the the Google Chrome ex
   - Targets only users that primarily use the Chrome web browser.
   - Deployment requires compliance with Chrome Web Store policies and periodic updates to maintain compatibility with browser changes.
 - **Neutral**
-  - blah
+  - Can integrate with the Canvas API
+  - Can develop with modern languages and frameworks
 
 ## Alternatives Considered
 - **Option A: Web application**
