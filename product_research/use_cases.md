@@ -1,8 +1,8 @@
 # Use Cases
 
-## Jobs To Be Done (JTBC)
+## Jobs To Be Done (JTBD)
 
-As part of our product use cases, we have the following 3 JTBCs:
+As part of our product use cases, we have the following 3 JTBDs:
 
 ### 1. Scheduling
 As a student, I want to be able to organize all my to-dos in one place (including tests, assignments, and personal commitments) so that I can easily manage my schedule and stay on top of upcoming deadlines.
