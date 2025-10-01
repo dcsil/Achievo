@@ -2,6 +2,18 @@
 
 <img width="1157" height="668" alt="image" src="https://github.com/user-attachments/assets/a5e34e9f-39bf-467c-8ded-7a5eac33299b" />
 
+## Tech Stack Summary
+
+- Languages and Frameworks:
+  - **Frontend**: HTML, CSS, Typescript
+  - **Backend**: Python, Flask
+- Other tools:
+  - **Database**: Databricks SQL Warehouse
+  - **AI**: Vertex AI
+  - **Course Information API**: Canvas API
+
+Why all our tech stack choices were chosen are justified in our [ADRs](architecture/adrs).
+
 ## User data flow steps
 1. In the Chrome extension, user enters syllabus/task data or task data is grabbed from Canvas via the Canvas API
 2. Syllabus data is sent to Vertex AI via HTTPS request. Data is processed using Vertex AI. Schedule and tasks are outputed via json format and displayed on the Chrome Extension.
