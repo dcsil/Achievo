@@ -133,16 +133,16 @@ For the scope of our MVP, we have identified the following 6 CUJs, listed in seq
    - Calendar `.ics` file export  
    - In-built task/breakdown calendar view of each task per course  
    - Milestones (micro-deadlines)  
-4. The app allows users to adjust their schedule via settings.  
+4. The application allows users to adjust their schedule via settings.  
    - e.g., when an assignment due date changes  
 5. Notifications are prompted to the user whenever a milestone/deadline is coming up.  
 6. UI pop-up of progress bar whenever part of a milestone is achieved and/or it’s time for breaks.  
-7. The app encourages the user to take breaks, especially when deadlines are further away.  
-8. The app recommends personalized break activities based on the onboarding quiz (e.g., go to the gym, get a snack, etc.).  
+7. The application encourages the user to take breaks, especially when deadlines are further away.  
+8. The application recommends personalized break activities based on the onboarding quiz (e.g., go to the gym, get a snack, etc.).  
 9. Automatic sync with Canvas:  
    - When an assignment is submitted, a pop-up UI congratulates the user and marks the relevant task as completed.  
-10. The app allows users to open blind boxes.  
-11. Users can purchase blind boxes with in-game currency.  
+10. The application allows users to purchase and open blind boxes.  
+11. The user can view their unlocked prizes on a dedicated page.  
 
 ## Non-Functional Requirements  
 
