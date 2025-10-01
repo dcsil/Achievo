@@ -115,11 +115,11 @@ For the scope of our MVP, we have identified the following 6 CUJs, listed in seq
 **JTBD**: Gamification  
 
 **User Path**:  
-1. User opens the **Rewards Page**.  
+1. User opens the **Rewards**.  
 2. User checks their collected prizes.  
 3. User navigates to the **Store**.  
 4. User spends in-game currency to unlock a prize.  
-5. User is redirected back to the **Collection**, where the new prize is added.  
+5. User is redirected back to **Rewards**, where the new prize is added.  
 
 **UI/UX Mock-Up**:  
 
