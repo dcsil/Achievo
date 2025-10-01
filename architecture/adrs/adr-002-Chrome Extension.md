@@ -20,13 +20,14 @@ We will create a Chrome Extension that is accessible in the the Google Chrome ex
 - **Negative**
   - Targets only users that primarily use the Chrome web browser.
   - Deployment requires compliance with Chrome Web Store policies and periodic updates to maintain compatibility with browser changes.
-- **Neutral**
+- **Neutral** (neutral because other alternatives also have these)
   - Can integrate with the Canvas API
   - Can develop with modern languages and frameworks
 
 ## Alternatives Considered
 - **Option A: Web application**
   - Rejected because it cannot provide direct integration with browser features (no access to tab, window management, native notifications, or page overrides).
+  - Also would reduce convenience, as students would need to navigate to a seperate tab to access it.
 - **Option B: Mobile application**
   - Rejected because students do most academic work on a laptop/browser. A mobile app cannot interact directly with browser tabs, windows, or web platform content. And, it would reduce convinience and student adoption.
   - Also building an effective mobile app requires creating and maintaining separate versions for Android and iOS, which would increase cost and complexity.
