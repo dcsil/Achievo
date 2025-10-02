@@ -12,7 +12,7 @@
   - **AI**: Vertex AI
   - **Course Information API**: Canvas API
 
-Why all our tech stack choices were chosen are justified in our [ADRs](architecture/adrs).
+Why all our tech stack choices were chosen are justified in our [ADRs](adrs/README.md).
 
 ## User data flow steps
 1. In the Chrome extension, user enters syllabus/task data or task data is grabbed from Canvas via the Canvas API
