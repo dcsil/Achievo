@@ -20,7 +20,7 @@ Goal: Deliver a functional MVP that lets users upload a syllabus, set preference
 
 **Duration:** Q4 2025 - Q1 2026
 
-**Target Completion Date:** 3/31/2025
+**Target Completion Date:** 3/31/2026
 
 Goal: Evolve from MVP into an alpha product with scheduling, personalization, and Canvas integration.
 - Add calendar view, enhanced home page, and profile updates.
