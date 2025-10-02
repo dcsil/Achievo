@@ -31,7 +31,7 @@ Goal: Evolve from MVP into an alpha product with scheduling, personalization, an
 - Add filter/sort functionality to schedules.
 - Strengthen testing coverage to 90% for backend and frontend.
 - User Research: Usability testing of calendar, Canvas sync, and notifications.
-- Low-fidelity launch: Release an alpha version in the Chrome Web Store beta channel at the beginning of the winter semester
+- Low-fidelity launch: Release an alpha version in the Chrome Web Store beta channel at the beginning of the winter semester.
 
 ## Long Term
 
