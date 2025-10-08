@@ -15,9 +15,60 @@ As a student, I want to receive an incentive, or reward for completing my tasks 
 
 ## Critical User Journeys (CUJs)
 
-For the scope of our MVP, we have identified the following 6 CUJs, listed in sequential order of user journey.
+While our MVP is designed around 6 key CUJs, this semester’s development will focus on 3 that align with our core feature set — task completion gamification and task notifications.
 
-### 1. Onboarding Quiz
+The remaining CUJs will be included at a conceptual level to support storytelling and demonstrate the full product vision, but may not be fully implemented in this phase.
+
+### 1. Task Notifications
+**Description**: The user can receive notifications for upcoming deadlines and tasks. Clicking on a notification will bring them to their task list, where they can update progress and earn rewards.  
+
+**JTBD**: Notifications & Keeping Track of Deadlines  
+
+**User Path**:  
+1. User navigates to the **Settings** tab.  
+2. User clicks **“Allow Notifications”** in settings.  
+3. User begins receiving notifications for deadlines and break reminders.  
+4. User clicks a notification → views tasks, updates progress, and earns rewards.  
+
+**UI/UX Mock-Up**:  
+
+![CUJ #1 mockup](./cuj_mockups/cuj_figma_01.png)  
+
+### 2. Task Completion & Rewards
+**Description**: The user can mark tasks as complete either through Canvas or directly in the extension. Upon completion, they are rewarded with animations and in-game currency.  
+
+**JTBD**: Gamification  
+
+**User Path**:  
+1. User completes a task by either:  
+   - Clicking **“Complete”** in the extension  
+   - Submitting it on Canvas  
+2. User receives a reward animation.  
+3. User sees in-game currency added to their balance.  
+
+**UI/UX Mock-Up**:  
+
+![CUJ #2 mockup](./cuj_mockups/cuj_figma_02.png)
+
+### 3. Rewards Redemption
+**Description**: The user can spend their earned in-game currency to unlock prizes. Unlocked prizes are added to their collection.  
+
+**JTBD**: Gamification  
+
+**User Path**:  
+1. User opens the **Rewards**.  
+2. User checks their collected prizes.  
+3. User navigates to the **Store**.  
+4. User spends in-game currency to unlock a prize.  
+5. User is redirected back to **Rewards**, where the new prize is added.  
+
+**UI/UX Mock-Up**:  
+
+![CUJ #3 mockup](./cuj_mockups/cuj_figma_03.png)  
+
+## Additional CUJs
+
+### 4. Onboarding Quiz
 **Description**: The user will complete a short onboarding quiz about their work-study habits and goals. Their responses will help the AI create a more personalized and effective schedule for them.
 
 **JTBD**: Scheduling
@@ -35,9 +86,9 @@ For the scope of our MVP, we have identified the following 6 CUJs, listed in seq
 
 **UI/UX Mock-Up**:  
 
-![CUJ #1 mockup](./cuj_mockups/cuj_01.png)
+![CUJ #4 mockup](./cuj_mockups/cuj_04.png)
 
-### 2. Schedule Generation
+### 5. Schedule Generation
 **Description**: The user uploads their syllabi, and the AI generates a schedule with both high-level and detailed task breakdowns. Users can export these as calendar files for easier integration into their workflow.  
 
 **JTBD**: Scheduling
@@ -55,9 +106,9 @@ For the scope of our MVP, we have identified the following 6 CUJs, listed in seq
 
 **UI/UX Mock-Up**:  
 
-![CUJ #2 mockup](./cuj_mockups/cuj_02.png)  
+![CUJ #5 mockup](./cuj_mockups/cuj_05.png)  
 
-### 3. Schedule Adjustment
+### 6. Schedule Adjustment
 **Description**: The user may have changes to their schedule that are not included in their syllabi. They can manually add events, and the AI will update the calendar accordingly, including shifting deadlines if needed.  
 
 **JTBD**: Scheduling
@@ -73,53 +124,6 @@ For the scope of our MVP, we have identified the following 6 CUJs, listed in seq
 6. AI updates the schedule accordingly, shifting deadlines if necessary.  
 7. User is returned to the updated calendar view.  
 8. User can export the updated calendar as an `.ics` file.  
-
-**UI/UX Mock-Up**:  
-
-![CUJ #3 mockup](./cuj_mockups/cuj_03.png)  
-
-### 4. Task Notifications
-**Description**: The user can receive notifications for upcoming deadlines and tasks. Clicking on a notification will bring them to their task list, where they can update progress and earn rewards.  
-
-**JTBD**: Notifications & Keeping Track of Deadlines  
-
-**User Path**:  
-1. User navigates to the **Settings** tab.  
-2. User clicks **“Allow Notifications”** in settings.  
-3. User begins receiving notifications for deadlines and break reminders.  
-4. User clicks a notification → views tasks, updates progress, and earns rewards.  
-
-**UI/UX Mock-Up**:  
-
-![CUJ #4 mockup](./cuj_mockups/cuj_04.png)  
-
-### 5. Task Completion & Rewards
-**Description**: The user can mark tasks as complete either through Canvas or directly in the extension. Upon completion, they are rewarded with animations and in-game currency.  
-
-**JTBD**: Gamification  
-
-**User Path**:  
-1. User completes a task by either:  
-   - Clicking **“Complete”** in the extension  
-   - Submitting it on Canvas  
-2. User receives a reward animation.  
-3. User sees in-game currency added to their balance.  
-
-**UI/UX Mock-Up**:  
-
-![CUJ #5 mockup](./cuj_mockups/cuj_05.png)  
-
-### 6. Rewards Redemption
-**Description**: The user can spend their earned in-game currency to unlock prizes. Unlocked prizes are added to their collection.  
-
-**JTBD**: Gamification  
-
-**User Path**:  
-1. User opens the **Rewards**.  
-2. User checks their collected prizes.  
-3. User navigates to the **Store**.  
-4. User spends in-game currency to unlock a prize.  
-5. User is redirected back to **Rewards**, where the new prize is added.  
 
 **UI/UX Mock-Up**:  
 
