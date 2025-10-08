@@ -38,8 +38,8 @@ Below is a summary of our current decisions, with links to full ADRs:
 - **[ADR 004: Frontend HTML & CSS (Tailwind)](adr-004-frontend-html-css.md)**  
   *Summary:* TailwindCSS was selected for fast, consistent styling with responsive design out-of-the-box. It increases HTML verbosity but accelerates iteration and improves maintainability.  
 
-- **[ADR 005: Vertex AI](adr-005-vertex-ai.md)**  
-  *Summary:* For intelligent scheduling, we use Vertex AI (Gemini + OR) to combine reasoning with optimization. This enables robust schedule generation and export to `.ics` while introducing vendor lock-in and setup complexity.  
+- **[ADR 005: AI Provider](adr-005-ai-provider.md)**  
+  *Summary:* For the MVP, we use the Google Gemini API (AI Studio) with simple task/event scheduling and deprioritize OR optimization, leaving a clear migration path to Vertex AI if advanced optimization is needed later.
 
 - **[ADR 006: Databricks SQL Warehouse](adr-006-databricks-sql-warehouse.md)**  
   *Summary:* We chose a SQL warehouse in Databricks for relational data integrity, scalability, and strong query performance. Its UI, AI agent, and documentation make it practical for both learning and production use.  
