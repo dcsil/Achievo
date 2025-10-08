@@ -1,6 +1,6 @@
 ## Architecture Diagram
 
-<img width="1157" height="668" alt="image" src="https://github.com/user-attachments/assets/a5e34e9f-39bf-467c-8ded-7a5eac33299b" />
+<img width="1320" height="742" alt="image" src="https://github.com/user-attachments/assets/8b0c23e5-dae0-4e11-9b8a-e5af32c15d04" />
 
 ## Tech Stack Summary
 
