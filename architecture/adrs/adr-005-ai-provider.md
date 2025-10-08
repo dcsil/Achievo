@@ -7,8 +7,6 @@
 ## Context  
 We need to implement intelligent scheduling logic in our Chrome extension. The system must generate optimized study schedules that consider user habits, goals, and constraints. To achieve this, we require a reliable LLM for reasoning (Gemini) combined with Operations Research (OR) techniques for optimization. Additionally, we want to support exporting schedules to standard calendar formats (.ics) for seamless integration with tools like Google Calendar, Outlook, and Apple Calendar.
 
-However, for the MVP (minimum viable product), we are deprioritizing OR-based optimization. The initial version will focus on extracting tasks/events and generating simple schedules with Gemini. OR will be revisited in future iterations if advanced optimization is required. At that point, we can migrate to Vertex AI, which provides tighter integration with OR tooling.
-
 ## Decision  
 We will use Google Gemini API (via AI Studio) instead of Vertex AI for now.
 - Vertex AI offers scalability and integration but requires OAuth setup and additional cloud configuration.
@@ -19,15 +17,15 @@ We will use Google Gemini API (via AI Studio) instead of Vertex AI for now.
 ## Consequences  
 - **Positive:**  
   - Simple setup with API keys (no OAuth required).
-	-	Faster iteration during early development.
-	-	Retains Gemini’s reasoning and language understanding.
-	-	.ics export continues to provide calendar interoperability.
-	-	Clear migration path if OR or scaling becomes necessary.  
+  - Faster iteration during early development.
+  - Retains Gemini’s reasoning and language understanding.
+  - .ics export continues to provide calendar interoperability.
+  - Clear migration path if OR or scaling becomes necessary.  
 
 - **Negative:**  
   -	No built-in OR integration at this stage.
-	-	Less scalable than Vertex AI-managed infrastructure.
-	-	Future work may be required to re-integrate OR when scaling.
+  -	Less scalable than Vertex AI-managed infrastructure.
+  -	Future work may be required to re-integrate OR when scaling.
    
 ## Migration Path
 
@@ -38,7 +36,7 @@ If OR or large-scale production needs arise, we can migrate from AI Studio Gemin
 ## Alternatives Considered 
 - **Option A: Vertex AI (Gemini + OR integration)**
   - Pros: Production-ready, tight GCP integration.
-	-	Cons: Requires OAuth setup, more complex dev process.
+  - Cons: Requires OAuth setup, more complex dev process.
     
 - **Option B: OpenAI (GPT-4.0/5.0):**  
   - Pros: Strong general reasoning and text generation.  
