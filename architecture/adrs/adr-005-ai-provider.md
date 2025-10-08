@@ -30,7 +30,7 @@ We will use Google Gemini API (via AI Studio) instead of Vertex AI for now.
 ## Migration Path
 
 If OR or large-scale production needs arise, we can migrate from AI Studio Gemini API to Vertex AI with minimal changes, as outlined in Google’s official documentation:
-[Migration Guide: AI Studio → Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/migrate/migrate-google-ai）
+[Migration Guide: AI Studio → Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/migrate/migrate-google-ai)
 
 
 ## Alternatives Considered 
