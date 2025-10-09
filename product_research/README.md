@@ -8,3 +8,4 @@ Table of Contents
 
 - [Market](./market.md)
 - [Roadmap](./roadmap.md)
+- [Use Cases](./use_cases.md)
