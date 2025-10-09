@@ -12,7 +12,7 @@ Goal: Deliver a functional MVP focused on core CUJs related to notifications and
 
 Other features such as syllabus upload, scheduling, and onboarding will use dummy data to support the overall user narrative. 
 
-- Build the core extension scaffold (Chrome Extension, React, Typescript, HTML/CSS) and backend service (Flask + Databricks SQL Warehouse).
+- Build the core extension scaffold (Chrome Extension, Typescript, HTML/CSS) and backend service (Flask + Databricks SQL Warehouse).
 - Provide basic onboarding and syllabus upload with placeholder data to simulate workflow.
 - Implement task list + schedule view using mock syllabus data.
 - Enable gamification features: mark tasks as done to earn coins, view collections, and purchase items using coins.
