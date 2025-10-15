@@ -1,7 +1,7 @@
 ## ADR 002: Chrome Extension
 
 **Date:** 2025-09-30 \
-**Status:** Proposed
+**Status:** Accepted
 
 ## Context
 Our vision is to create a centralized application that reimagines how students manage their workload through balance, motivation, and smarter systems. We want to target post secondary students in North America that use the Canvas LMS. Our tool will combine automated scheduling and gamification, while being easy to access and use.
