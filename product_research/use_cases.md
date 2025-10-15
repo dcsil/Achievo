@@ -131,27 +131,26 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 
 ## Functional Requirements  
 
-1. The user uploads the syllabus.  
-2. The user answers a series of questions tailored to their study habits, goals, mental health breaks, and “hard no-s” (e.g., club meeting from 7–10pm on Tuesdays, commute 9-10am daily).  
+1. The user can upload a syllabi, and the AI will automatically extract assignment deadlines and test dates from the document. 
+2. The user answers a series of questions tailored to their study habits, goals, mental health breaks, and “hard no-s” (e.g., club meeting from 7–10pm on Tuesdays, commute 9-10am daily).
 3. The user can see their schedule (based on AI tailored output).  
    - Calendar `.ics` file export  
    - In-built task/breakdown calendar view of each task per course  
    - Milestones (micro-deadlines)  
 4. The application allows users to adjust their schedule via settings.  
    - e.g., when an assignment due date changes  
-5. Notifications are prompted to the user whenever a milestone/deadline is coming up.  
-6. UI pop-up of progress bar whenever part of a milestone is achieved and/or it’s time for breaks.  
-7. The application encourages the user to take breaks, especially when deadlines are further away.  
-8. The application recommends personalized break activities based on the onboarding quiz (e.g., go to the gym, get a snack, etc.).  
-9. Automatic sync with Canvas:  
-   - When an assignment is submitted, a pop-up UI congratulates the user and marks the relevant task as completed.  
-10. The application allows users to purchase and open blind boxes.  
-11. The user can view their unlocked prizes on a dedicated page.  
+5. Users receive reminders in notification form for upcoming milestones and deadlines at defined intervals (e.g., 24 hours, 1 hour, and 15 minutes before due time).
+6. The application recommends personalized break activities based on the onboarding quiz (e.g., go to the gym, get a snack, etc.).  
+7. Allow user to sync with Canvas:
+   - When a new task (assignment, quiz, etc.) is created in Canvas, it is automatically imported and added to the extension’s task list—users don’t have to enter it manually.
+   - When a task is marked as completed in Canvas, its status is automatically updated as complete in the extension, ensuring users never need to update completion status twice.
+8.The application allows users to purchase and open blind boxes. Each blind box contains a randomized collectible from a curated series of images, with a chance to unlock secret rewards such as animated GIFs.
+9. The user can view their unlocked prizes on a dedicated page.  
 
 ## Non-Functional Requirements  
 
 1.  Performance:
-   - Schedule generation finishes within 30 seconds for each syllabi.
+   - Schedule generation finishes within 30 seconds for a syllabi up to 10MB in PDF form.
    - Each page and extension popup loads in ≤3 seconds.
    - Notifications fire within ±2 minutes of scheduled time; break reminders within ±30 seconds.
 
@@ -159,10 +158,6 @@ The remaining CUJs will be included at a conceptual level to support storytellin
    - User onboarding requires no more than 3 steps.
    - All key features accessible within 2 clicks from the main dashboard.
 
-3. File Handling:
-   - Users may upload up to 5 syllabi
-   - each file can be up to 10MB and in PDF
-
-4. Quality & Maintainability:
+3. Quality & Maintainability:
    - Automated tests for all user-facing features.
    - Modular codebase with documentation and error logging.
