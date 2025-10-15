@@ -1,7 +1,7 @@
 ## ADR 003: Frontend TS
 
 **Date:** 2025-09-30 \
-**Status:** Proposed
+**Status:** Accepted
 
 ## Context
 We need to build the frontend UI for the Chrome extension. Chrome extensions must be built with HTML, CSS, and JavaScript (or TypeScript compiled to JavaScript). Using TypeScript ensures stronger type consistency, making the codebase more reliable and maintainable as it grows.
