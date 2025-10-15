@@ -32,8 +32,8 @@ Below is a summary of our current decisions, with links to full ADRs:
 - **[ADR 002: Chrome Extension](adr-002-chrome-extension.md)**  
   *Summary:* We chose to build a Chrome Extension for direct browser integration, enabling notifications, tab control, and easy access. This maximizes accessibility for students but limits us to Chrome users.  
 
-- **[ADR 003: Frontend TypeScript](adr-003-frontend-ts.md)**  
-  *Summary:* We use TypeScript for the frontend UI to improve reliability, tooling, and maintainability over plain JavaScript. This adds a build step but ensures stronger type safety and scalability.  
+- **[ADR 003: Frontend React + TypeScript](adr-003-frontend-react-ts.md)**  
+  *Summary:* We use React with TypeScript for the frontend UI to achieve a scalable, reliable, and maintainable codebase with stronger type safety and developer tooling compared to plain JavaScript.
 
 - **[ADR 004: Frontend HTML & CSS (Tailwind)](adr-004-frontend-html-css.md)**  
   *Summary:* TailwindCSS was selected for fast, consistent styling with responsive design out-of-the-box. It increases HTML verbosity but accelerates iteration and improves maintainability.  
