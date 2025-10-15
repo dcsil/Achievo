@@ -1,6 +1,6 @@
 # ADR 005: AI Provider
 
-**Date:** 2025-10-8
+**Date:** 2025-10-8 \
 **Status:** Accepted
 
 ## Context  
