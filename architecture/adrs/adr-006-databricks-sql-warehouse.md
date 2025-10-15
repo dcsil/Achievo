@@ -1,7 +1,7 @@
 # ADR 006: Databricks SQL Warehouse
 
 **Date:** 2025-09-30 \
-**Status:** Proposed  
+**Status:** Accepted
 
 ## Context  
 Our scheduling app requires a backend capable of handling structured syllabus data, and supporting fast queries for deadlines, tasks, and progress tracking.  
