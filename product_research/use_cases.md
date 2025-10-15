@@ -130,22 +130,24 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 ![CUJ #6 mockup](./cuj_mockups/cuj_06.png)  
 
 ## Functional Requirements  
-
-1. The user can upload a syllabi, and the AI will automatically extract assignment deadlines and test dates from the document. 
-2. The user answers a series of questions tailored to their study habits and “hard no-s” (e.g., prefer to study between 6-9pm, club meeting from 7–10pm on Tuesdays, commute 9-10am daily).
-3. The user can see their schedule (based on AI tailored output).  
-   - Calendar `.ics` file export  
-   - In-built task/breakdown calendar view of each task per course  
-   - Milestones (micro-deadlines)  
-4. The application allows users to adjust their schedule via settings.  
-   - e.g., when an assignment due date changes  
-5. Users receive reminders in notification form for upcoming milestones and deadlines at defined intervals (e.g., 24 hours, 1 hour, and 15 minutes before due time).
-6. Allow user to sync with Canvas:
+**Priority Features — Gamification & Notifications**
+1. Users can earn in-game coins by completing tasks.
+2. Users receive reminders as notifications for upcoming milestones and deadlines at defined intervals (e.g., 24 hours, 1 hour, 15 minutes before due time).
+3. Users can use coins to purchase and open blind boxes. Each blind box contains a randomized collectible from a curated series of images, with a chance to unlock secret rewards such as animated GIFs.
+4. Users can view their unlocked prizes on a dedicated page.
+5. Allow user to sync with Canvas:
    - When a new task (assignment, quiz, etc.) is created in Canvas, it is automatically imported and added to the extension’s task list—users don’t have to enter it manually.
    - When a task is marked as completed in Canvas, its status is automatically updated as complete in the extension, ensuring users never need to update completion status twice.
-7. The application allows users to earn in-game coins by completing tasks.
-8. Users can use their coins to purchase and open blind boxes. Each blind box contains a randomized collectible from a curated series of images, with a chance to unlock secret rewards such as animated GIFs.
-9. The user can view their unlocked prizes on a dedicated page.  
+
+**Deprioritized Feature — Scheduling**
+
+1. The user can upload a syllabi, and the AI will automatically extract assignment deadlines and test dates from the document.
+2. The user answers a series of questions tailored to their study habits and “hard no-s” (e.g., prefer to study between 6-9pm, club meeting from 7–10pm on Tuesdays, commute 9-10am daily).
+3. The user can see their schedule (based on AI tailored output).
+   - Calendar .ics file export
+   - In-built task/breakdown calendar view of each task per course
+   - Milestones (micro-deadlines)
+4. The application allows users to adjust their schedule via settings, e.g., when an assignment due date changes.
 
 ## Non-Functional Requirements  
 
