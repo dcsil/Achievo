@@ -11,7 +11,7 @@ As a student, I want to be able to organize all my to-dos in one place (includin
 As a student, I want to be reminded of my tasks and deadlines so that I can make sure I have them completed.
 
 ### 3. Gamification
-As a student, I want to receive an incentive, or reward for completing my tasks so that I can have the motivation to continue and be encouraged to continue keeping up with my tasks. 
+As a student, I want to stay motivated on my school work so that I can continue keeping up with my tasks.
 
 ## Critical User Journeys (CUJs)
 
