@@ -1,7 +1,7 @@
 ## ADR 001: Canvas API
 
 **Date:** 2025-09-30 \
-**Status:** Proposed
+**Status:** Accepted
 
 ## Context
 We need a reliable way to detect when a student has submitted an assignment in Canvas, so the extension can:
