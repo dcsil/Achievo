@@ -1,7 +1,7 @@
 # ADR 004: Frontend HTML, CSS (Tailwind)
 
 **Date:** 2025-09-30 \
-**Status:** Proposed  
+**Status:** Accepted
 
 ## Context  
 We need to build the front end of our Chrome extension. The front end must be lightweight, responsive, and easy to maintain. Since the extension will be used by students across different devices and screen sizes, consistent styling and rapid development are important.  
