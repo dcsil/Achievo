@@ -5,7 +5,7 @@
 ## Tech Stack Summary
 
 - Languages and Frameworks:
-  - **Frontend**: HTML, CSS, Typescript
+  - **Frontend**: HTML, CSS, Typescript + React
   - **Backend**: Python, Flask
 - Other tools:
   - **Database**: Databricks SQL Warehouse
