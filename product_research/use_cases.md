@@ -150,8 +150,19 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 
 ## Non-Functional Requirements  
 
-1. User-friendly interface that requires little to no onboarding.  
-2. Visually appealing blind boxes & prizes to better incentivize students to complete tasks.  
-3. Seamless integration with Canvas that requires no manual syncing.  
-4. Secure storage of personal data.  
+1.  Performance:
+   - Schedule generation finishes within 30 seconds for each syllabi.
+   - Each page and extension popup loads in ≤3 seconds.
+   - Notifications fire within ±2 minutes of scheduled time; break reminders within ±30 seconds.
 
+2. Usability:
+   - User onboarding requires no more than 3 steps.
+   - All key features accessible within 2 clicks from the main dashboard.
+
+3. File Handling:
+   - Users may upload up to 5 syllabi
+   - each file can be up to 10MB and in PDF
+
+4. Quality & Maintainability:
+   - Automated tests for all user-facing features.
+   - Modular codebase with documentation and error logging.
