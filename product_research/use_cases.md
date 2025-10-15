@@ -149,15 +149,13 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 
 ## Non-Functional Requirements  
 
-1.  Performance:
+1. Performance:
    - Schedule generation finishes within 30 seconds for a syllabi up to 10MB in PDF form.
    - Each page and extension popup loads in ≤3 seconds.
    - Notifications fire within ±2 minutes of scheduled time; break reminders within ±30 seconds.
-
 2. Usability:
    - User onboarding requires no more than 3 steps.
    - All key features accessible within 2 clicks from the main dashboard.
-
 3. Quality & Maintainability:
    - Automated tests for all user-facing features.
    - Modular codebase with documentation and error logging.
