@@ -1,8 +1,7 @@
 # ADR 005: AI Provider
 
 **Date:** 2025-10-8
-
-**Status:** Implemented  
+**Status:** Accepted
 
 ## Context  
 We need to implement intelligent scheduling logic in our Chrome extension. The system must generate optimized study schedules that consider user habits, goals, and constraints. To achieve this, we require a reliable LLM for reasoning (Gemini) combined with Operations Research (OR) techniques for optimization. Additionally, we want to support exporting schedules to standard calendar formats (.ics) for seamless integration with tools like Google Calendar, Outlook, and Apple Calendar.
