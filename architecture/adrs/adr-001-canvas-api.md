@@ -1,6 +1,6 @@
 ## ADR 001: Canvas API
 
-**Date:** 2025-09-30 \
+**Date:** 2025-10-15 \
 **Status:** Accepted
 
 ## Context
