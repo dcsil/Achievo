@@ -1,7 +1,7 @@
 # ADR 003: Frontend with React + TypeScript
 
 **Date:** 2025-10-15 \
-**Status:** Approved
+**Status:** Accepted
 
 ## Context
 
