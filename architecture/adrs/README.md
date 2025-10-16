@@ -49,3 +49,6 @@ Below is a summary of our current decisions, with links to full ADRs:
 
 - **[ADR 008: Pytest](adr-008-pytest.md)**  
   *Summary:* We adopted pytest for unit and integration testing, with pytest-cov for code coverage reporting, ensuring automated, reliable testing and continuous quality assurance through CI integration.
+
+- **[ADR 009: Jest and React Testing Library](adr-008-pytest.md)**  
+  *Summary:* We adopted Jest and React Testing Library for frontend testing to ensure reliable, user-focused unit and integration tests, with built-in coverage reporting and seamless CI integration for continuous quality assurance.
