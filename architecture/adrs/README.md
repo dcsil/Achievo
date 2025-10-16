@@ -45,4 +45,7 @@ Below is a summary of our current decisions, with links to full ADRs:
   *Summary:* We chose a SQL warehouse in Databricks for relational data integrity, scalability, and strong query performance. Its UI, AI agent, and documentation make it practical for both learning and production use.  
 
 - **[ADR 007: Python Flask Backend](adr-007-python-flask.md)**  
-  *Summary:* We use Python/Flask for the backend due to strong ecosystem support (Canvas API, Databricks, Vertex AI integrations), team proficiency, and lightweight API development. Flask’s flexibility reduces overhead and accelerates development.  
+  *Summary:* We use Python/Flask for the backend due to strong ecosystem support (Canvas API, Databricks, Gemini AI integrations), team proficiency, and lightweight API development. Flask’s flexibility reduces overhead and accelerates development.  
+
+- **[ADR 008: Pytest](adr-008-pytest.md)**  
+  *Summary:* We adopted pytest for unit and integration testing, with pytest-cov for code coverage reporting, ensuring automated, reliable testing and continuous quality assurance through CI integration.
