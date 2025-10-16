@@ -1,7 +1,7 @@
 # ADR 006: Python Flask 
 
-**Date:** 2025-09-30 \
-**Status:** Accepted  
+**Date:** 2025-10-15 \
+**Status:** Accepted
 
 ## Context  
 Our project requires a backend that can integrate with Databricks, Vertex AI, the Canvas API, and a Chrome extension. Since much of the documentation and tooling for these integrations is provided in Python, it made sense to align our backend language with this ecosystem. Our team also has strong proficiency in Python, making it a natural fit.  
