@@ -1,11 +1,11 @@
 ## Architecture Diagram
-<img width="997" height="557" alt="image" src="https://github.com/user-attachments/assets/8eefdcab-c149-4487-af18-0a3b3c37030b" />
+<img width="1222" height="722" alt="image" src="https://github.com/user-attachments/assets/cbb0e11b-bdfd-42d4-b29c-c863a52c4252" />
 
 ## Tech Stack Summary
 
 - Languages and Frameworks:
-  - **Frontend**: HTML, CSS, Typescript + React
-  - **Backend**: Python, Flask
+  - **Frontend**: HTML, CSS, Typescript + React, Jest (testing), React Testing Library (testing)
+  - **Backend**: Python, Flask, pytest (testing)
 - Other tools:
   - **Database**: Databricks SQL Warehouse
   - **AI**: Gemini API provided by Google AI Studio
