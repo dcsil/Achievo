@@ -29,7 +29,7 @@ As a student, I want to know when my assignments and tests are for my courses so
 
 **User Persona:** Paul Paw  
 **Program:** 4th-year undergraduate student, Computer Science  
-**Experience Level:** Intermediate tech user; familiar with productivity apps but new to Syllabuddy  
+**Experience Level:** Intermediate tech user; familiar with productivity apps (ex. Google Calendar) but new to Syllabuddy  
 **Context:** At the start of a new semester, Paul wants to extract deadlines from multiple course syllabi to plan workload across weeks.  
 
 **Tools Used:**  
@@ -74,6 +74,15 @@ Syllabuddy excels in simplicity and accessibility. It’s easy to find online, h
 Its main weakness lies in accuracy and efficiency. The parser appears to pull every date in the syllabus indiscriminately, leading to incomplete or incorrect tasks. Nearly all entries required manual fixes, defeating automation’s purpose. The reliance on emailed `.ics` files also introduces multiple context switches and extra steps.  
 
 ### Comparison with Our Product (Achievo)
+
+| Feature | Syllabuddy | Achievo |
+|:---|:---|:---|
+Task Breakdown | Date + Description | Date + **Time** + Description + **Micro-deadlines**
+Task Extraction | Basic regex parsing | **AI smart** parsing
+Task Storage | No in-app storage | Saved in **cloud** database
+Other Features | None | All-in-one Platform + **Gamification**
+Task View | **Side-by-side** task comparison with syllabus | Simple list of tasks
+
 Achievo significantly improves on Syllabuddy’s weaknesses through four key differentiators:
 
 - **AI Extraction:** Our model parses syllabi contextually, distinguishing between lecture dates, due dates, and exams for precise task generation.
