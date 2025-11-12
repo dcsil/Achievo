@@ -42,7 +42,7 @@ Below is a summary of our current decisions, with links to full ADRs:
   *Summary:* For the MVP, we use the Google Gemini API (AI Studio) with simple task/event scheduling and deprioritize OR optimization, leaving a clear migration path to Vertex AI if advanced optimization is needed later.
 
 - **[ADR 006: Databricks SQL Warehouse](adr-006-databricks-sql-warehouse.md)**  
-  *Summary:* We chose a SQL warehouse in Databricks for relational data integrity, scalability, and strong query performance. Its UI, AI agent, and documentation make it practical for both learning and production use.  
+  *Summary:* We will no longer use Databricks as our database due to high overhead.
 
 - **[ADR 007: Python Flask Backend](adr-007-python-flask.md)**  
   *Summary:* We use Python/Flask for the backend due to strong ecosystem support (Canvas API, Databricks, Gemini AI integrations), team proficiency, and lightweight API development. Flask’s flexibility reduces overhead and accelerates development.  
@@ -52,3 +52,6 @@ Below is a summary of our current decisions, with links to full ADRs:
 
 - **[ADR 009: Jest and React Testing Library](adr-008-pytest.md)**  
   *Summary:* We adopted Jest and React Testing Library for frontend testing to ensure reliable, user-focused unit and integration tests, with built-in coverage reporting and seamless CI integration for continuous quality assurance.
+
+- **[ADR 010: Supabase Postgres Database](adr-008-pytest.md)**  
+  *Summary:* We decided to migrate from Databricks to Supabase. That is because there is far less overhead for running queries and more intuitive interface.
