@@ -20,15 +20,14 @@ While our MVP is designed around 6 key CUJs, this semester’s development will 
 The remaining CUJs will be included at a conceptual level to support storytelling and demonstrate the full product vision, but may not be fully implemented in this phase.
 
 ### 1. Task Notifications
-**Description**: The user can receive notifications for upcoming deadlines and tasks. Clicking on a notification will bring them to their task list, where they can update progress and earn rewards.  
+**Description**: The user can receive notifications to keep on top of tasks and get mental health breaks. They will receive notifications to start taking breaks and also notifications to remind them to check on tasks.  
 
 **JTBD**: Notifications & Keeping Track of Deadlines  
 
 **User Path**:  
-1. User navigates to the **Settings** tab.  
-2. User clicks **“Allow Notifications”** in settings.  
-3. User begins receiving notifications for deadlines and break reminders.  
-4. User clicks a notification → views tasks, updates progress, and earns rewards.  
+1. User creates a new task to workout during a certain time frame.  
+2. User begins receiving notifications for breaks and other activities like exercising.
+3. User also gets hourly notifications to remind them of tasks.
 
 **UI/UX Mock-Up**:  
 
