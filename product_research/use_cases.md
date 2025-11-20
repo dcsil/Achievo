@@ -93,11 +93,11 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 **JTBD**: Scheduling
 
 **User Path**:  
-	1.	User uploads the timetable as a PDF file, and the system generates courses and tasks for each class session.
-	2.	User reviews, confirms, and saves them in the extension.
-	3.	User uploads syllabi as PDF files, and AI extracts all tests, exams, assignments, and micro-tasks for each assignment.
-	4.	User reviews, confirms, and saves them in the extension.
-	5.	User can export all tasks as .ics files and import them into an external calendar.
+1. User uploads the timetable as a PDF file, and the system generates courses and tasks for each class session.
+2. User reviews, confirms, and saves them in the extension.
+3. User uploads syllabi as PDF files, and AI extracts all tests, exams, assignments, and micro-tasks for each assignment.
+4. User reviews, confirms, and saves them in the extension.
+5. User can export all tasks as .ics files and import them into an external calendar.
 
 **UI/UX Mock-Up**:  
 
