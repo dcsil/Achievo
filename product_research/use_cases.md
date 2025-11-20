@@ -33,15 +33,13 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 
 ![CUJ #1 mockup](./cuj_mockups/cuj_figma_01.png)  
 
-### 2. Task Completion & Rewards
-**Description**: The user can mark tasks as complete either through Canvas or directly in the extension. Upon completion, they are rewarded with animations and in-game currency.  
+### 2. Manual User Task Completion & Rewards
+**Description**: The user can mark tasks as complete directly in the extension. Upon completion, they are rewarded with animations and in-game currency.  
 
 **JTBD**: Gamification  
 
 **User Path**:  
-1. User completes a task by either:  
-   - Clicking **“Complete”** in the extension  
-   - Submitting it on Canvas  
+1. User clicks **“Complete”** for a task in the extension  
 2. User receives a reward animation.  
 3. User sees in-game currency added to their balance.  
 
@@ -88,7 +86,7 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 ![CUJ #4 mockup](./cuj_mockups/cuj_04.png)
 
 ### 5. Schedule Generation
-**Description**: The user uploads their time table syllabi, and the AI extract todos and generated detailed task breakdowns. Users can export these as calendar files for easier integration into their workflow.  
+**Description**: The user uploads their time table and/or syllabi, and the AI extract todos and generated detailed task breakdowns. Users can export these as calendar files for easier integration into their workflow.  
 
 **JTBD**: Scheduling
 
@@ -123,6 +121,21 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 **UI/UX Mock-Up**:  
 
 ![CUJ #6 mockup](./cuj_mockups/cuj_06.png)  
+
+### 7. Canvas Task Completion & Rewards
+**Description**: The user completes a task in Canvas. Upon completion, they are rewarded a notification from our application and in-game currency.  
+
+**JTBD**: Gamification  
+
+**User Path**:  
+1. User submits an assignment on Canvas  
+3. Our application automatically marks the assignment linked to the Canvas assignment complete and rewards the user with currency.
+2. User receives a notification congradulating them upon completion. Shows new coin balance too.
+3. User opens our extension and sees new coin balance. 
+
+**UI/UX Mock-Up**:  
+
+![CUJ #7 mockup](./cuj_mockups/cuj_07.png)  
 
 ## Functional Requirements  
 **Priority Features — Gamification & Notifications**
