@@ -50,8 +50,11 @@ Below is a summary of our current decisions, with links to full ADRs:
 - **[ADR 008: Pytest](adr-008-pytest.md)**  
   *Summary:* We adopted pytest for unit and integration testing, with pytest-cov for code coverage reporting, ensuring automated, reliable testing and continuous quality assurance through CI integration.
 
-- **[ADR 009: Jest and React Testing Library](adr-008-pytest.md)**  
+- **[ADR 009: Jest and React Testing Library](adr-009-jest.md)**  
   *Summary:* We adopted Jest and React Testing Library for frontend testing to ensure reliable, user-focused unit and integration tests, with built-in coverage reporting and seamless CI integration for continuous quality assurance.
 
-- **[ADR 010: Supabase Postgres Database](adr-008-pytest.md)**  
+- **[ADR 010: Supabase Postgres Database](adr-010-supabase-database.md)**  
   *Summary:* We decided to migrate from Databricks to Supabase. That is because there is far less overhead for running queries and more intuitive interface.
+
+- **[ADR 011: : Backend Deployment Platform](adr-011-backend-deployment-platform.md)** 
+Summary: We chose Render to deploy our Flask backend because it provides the simplest GitHub-based deployment with built-in HTTPS, persistent server support, and minimal infrastructure overhead compared to managing virtual machines or serverless alternatives.
