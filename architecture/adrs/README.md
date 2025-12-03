@@ -56,5 +56,6 @@ Below is a summary of our current decisions, with links to full ADRs:
 - **[ADR 010: Supabase Postgres Database](adr-010-supabase-database.md)**  
   *Summary:* We decided to migrate from Databricks to Supabase. That is because there is far less overhead for running queries and more intuitive interface.
 
-- **[ADR 011: : Backend Deployment Platform](adr-011-backend-deployment-platform.md)** 
-Summary: We chose Render to deploy our Flask backend because it provides the simplest GitHub-based deployment with built-in HTTPS, persistent server support, and minimal infrastructure overhead compared to managing virtual machines or serverless alternatives.
+- **[ADR 011: : Backend Deployment Platform](adr-011-backend-deployment-platform.md)**             
+  *Summary:* We chose Render to deploy our Flask backend because it provides the simplest GitHub-based deployment with built-in HTTPS, persistent server support, and minimal infrastructure overhead compared to managing virtual machines or serverless alternatives.
+
