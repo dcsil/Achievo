@@ -11,6 +11,7 @@
   - **Database**: Supabase Postgres Database
   - **AI (Beyond MVP)**: Gemini API provided by Google AI Studio
   - **Course Information API (Beyond MVP)**: Canvas API
+  - **Deployment**: Render
 
 Why all our tech stack choices were chosen are justified in our [ADRs](adrs/README.md).
 
