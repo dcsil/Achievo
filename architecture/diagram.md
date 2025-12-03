@@ -1,5 +1,6 @@
 ## Architecture Diagram
-<img width="1283" height="754" alt="image" src="https://github.com/user-attachments/assets/bb3e0561-4132-4956-8c21-aeeb9c9eaa0a" />
+<img width="1920" height="1080" alt="Main Application" src="https://github.com/user-attachments/assets/d590a890-39fe-4247-9d5e-8aa2f41108d1" />
+
 
 ## Tech Stack Summary
 
@@ -8,14 +9,15 @@
   - **Backend**: Python, Flask, pytest (testing)
 - Other tools:
   - **Database**: Supabase Postgres Database
-  - **AI**: Gemini API provided by Google AI Studio
-  - **Course Information API**: Canvas API
+  - **AI (Beyond MVP)**: Gemini API provided by Google AI Studio
+  - **Course Information API (Beyond MVP)**: Canvas API
 
 Why all our tech stack choices were chosen are justified in our [ADRs](adrs/README.md).
 
-## User data flow steps
-1. In the Chrome extension, user enters syllabus/task data or task data is grabbed from Canvas via the Canvas API
-2. Syllabus data is sent to Gemini API via HTTPS request. Schedule and tasks are outputed via json format and displayed on the Chrome Extension.
-3. Any task/schedule data is stored in our Supabase Postgres Database. Any specific Google Chrome data is stored in chrome.storage.
-4. When tasks are displayed later on in the Chrome Extension, data is grabbed from the Supabase Postgres Database via HTTPS request.
-5. When tasks are completed, the task data is updated in the Supabase Postgres Database via HTTPS request. 
+## MVP user data flow steps:
+1. In the Chrome extension, the user enters timetable/syllabus/task data.
+2. A schedule is parsed and outputted from the timetable upload and everything is displayed on the Chrome Extension.
+3. Any task/schedule data is stored in our Supabase Postgres Database.
+4. Notifications are created using the Chrome APIs.
+5. When tasks are displayed later on in the Chrome Extension, data is grabbed from the Supabase Postgres Database via HTTPS request.
+6. When tasks are completed, the task data is updated in the Supabase Postgres Database via HTTPS request.
