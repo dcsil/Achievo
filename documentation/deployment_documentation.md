@@ -120,11 +120,7 @@ This will create a `build` folder containing the compiled extension.
 ⚠️ **Developer Mode Required**
 - Chrome's Developer Mode must remain enabled for the extension to continue working
 - If Developer Mode is disabled, the extension will stop functioning
-
-⚠️ **No Automatic Updates**
-- Unlike published extensions, this will not auto-update
-- To get updates, users must obtain the new `build` folder and reload the extension
-
+  
 ### Troubleshooting
 
 **Extension not appearing:**
