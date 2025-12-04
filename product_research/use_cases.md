@@ -71,15 +71,17 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 **JTBD**: Scheduling
 
 **User Path**:
-   1. User will Open chrome extension
-   2. Sign up for account/link with Canvas for their account
-   3. Quiz will be prompted if they are first time user
-   4. Answer multiple choice questions like:
-      - Do you prefer studying in the morning/night?
-      - What are times you cannot do?
-      - Let user block out class time, commute, meeting timeslots 
-      - What are your goals for mental health?
-   5. Once completed, the AI will better understand their preference, and understand better about the user.  
+1. The user opens the Chrome extension and signs up or logs in.
+2. First-time users are automatically directed to the onboarding flow.
+3. The user uploads their timetable for parsing and verification.
+4. The user selects their interests and availability preferences through a short quiz.
+5. The user connects their Canvas account to sync courses and deadlines.
+6. The user uploads course syllabi to extract assignments and tasks.
+7. The user enables or disables notifications (breaks, reminders, progress updates).
+8. The user reviews a setup summary and confirms completion.
+9. The user is redirected to the main dashboard.
+10. All onboarding steps can be revisited later in the Settings page.
+
 
 **UI/UX Mock-Up**:  
 
