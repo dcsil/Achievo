@@ -138,12 +138,9 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 ## Functional Requirements  
 **Priority Features — Gamification & Notifications**
 1. Users can earn in-game coins by completing tasks.
-2. Users receive reminders as notifications for upcoming milestones and deadlines at defined intervals (e.g., 24 hours, 1 hour, 15 minutes before due time).
-3. Users can use coins to purchase and open blind boxes. Each blind box contains a randomized collectible from a curated series of images, with a chance to unlock secret rewards such as animated GIFs.
+2. Users receive reminders as notifications at defined intervals.
+3. Users can use coins to purchase and open blind boxes. Each blind box contains a randomized collectible from a curated series of images, with a chance to unlock secret rewards.
 4. Users can view their unlocked prizes on a dedicated page.
-5. Allow user to sync with Canvas:
-   - When a new task (assignment, quiz, etc.) is created in Canvas, it is automatically imported and added to the extension’s task list—users don’t have to enter it manually.
-   - When a task is marked as completed in Canvas, its status is automatically updated as complete in the extension, ensuring users never need to update completion status twice.
 
 **Deprioritized Feature — Scheduling**
 
@@ -154,6 +151,9 @@ The remaining CUJs will be included at a conceptual level to support storytellin
    - In-built task/breakdown calendar view of each task per course
    - Milestones (micro-deadlines)
 4. The application allows users to adjust their schedule via settings, e.g., when an assignment due date changes.
+5. Allow user to sync with Canvas:
+   - When a new task (assignment, quiz, etc.) is created in Canvas, it is automatically imported and added to the extension’s task list—users don’t have to enter it manually.
+   - When a task is marked as completed in Canvas, its status is automatically updated as complete in the extension, ensuring users never need to update completion status twice.
 
 ## Non-Functional Requirements  
 
@@ -162,7 +162,6 @@ The remaining CUJs will be included at a conceptual level to support storytellin
    - Notifications fire within ±2 minutes of scheduled time; break reminders within ±30 seconds.
    - Schedule generation (deprioritized): finishes within 30 seconds for a syllabus up to 10MB in PDF format.
 2. Usability:
-   - User onboarding requires no more than 3 steps.
    - All key features (task completion, notifications, rewards) accessible within 2 clicks from the dashboard.
    - Blind box purchase and opening process is intuitive and visually engaging.
 3. Quality & Maintainability:
