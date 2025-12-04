@@ -14,7 +14,7 @@ This Chrome extension consists of a frontend extension and a backend API server.
 
 #### Deploying Backend Updates
 1. Push changes to the main branch of your GitHub repository
-2. Render.com will automatically detect the changes and trigger a deployment
+2. [Github Action](https://github.com/dcsil/achievo-app/actions/workflows/backend-deployment.yml) will automatically detect the changes and trigger a deployment
 3. Monitor the deployment status in the Render.com dashboard
 4. Verify the deployment is successful before testing the extension
 
