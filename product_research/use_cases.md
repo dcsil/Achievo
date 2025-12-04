@@ -77,7 +77,7 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 4. The user **selects their interests**.
 5. The user **connects their Canvas account** to sync courses and deadlines.
 6. The user **uploads course syllabi** to extract assignments and tasks.
-7. The user enables or disables **notifications**.
+7. The user **enables or disables notifications**.
 8. The user learn what the product offers.
 9. The user is redirected to the main dashboard.
 10. All onboarding steps can be revisited later in the Settings page.
