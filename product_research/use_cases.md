@@ -130,14 +130,15 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 **JTBD**: Gamification  
 
 **User Path**:  
-1. User submits an assignment on Canvas  
-3. Our application automatically marks the assignment linked to the Canvas assignment complete and rewards the user with currency.
-2. User receives a notification congradulating them upon completion. Shows new coin balance too.
-3. User opens our extension and sees new coin balance. 
+1. During onboarding, the user connects their Canvas account by providing an access token or authenticating through Canvas.
+2. The user selects which courses to sync from their Canvas account.
+3. The application continuously monitors Canvas for new assignments, due date changes, and submission status updates.
+4. When the user completes an assignment in Canvas, the system detects the submission automatically.
+5. The user receives an in-app notification confirming completion.
 
 **UI/UX Mock-Up**:  
 
-![CUJ #7 mockup](./cuj_mockups/cuj_07.png)  
+![CUJ #7 mockup](./cuj_mockups/canvas.png)  
 
 ## Functional Requirements  
 **Priority Features — Gamification & Notifications**
