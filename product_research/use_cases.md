@@ -15,18 +15,17 @@ As a student, I want to stay motivated on my school work so that I can continue 
 
 ## Critical User Journeys (CUJs)
 
-While our MVP is designed around 6 key CUJs, this semester’s development will focus on 3 that align with our core feature set — task completion gamification and task notifications.
+While our MVP is designed around 7 key CUJs, this semester’s development will focus on 3 that align with our core feature set — task completion gamification and task notifications.
 
 The remaining CUJs will be included at a conceptual level to support storytelling and demonstrate the full product vision, but may not be fully implemented in this phase.
 
 ### 1. Task Notifications
-**Description**: The user can receive notifications to keep on top of tasks and get mental health breaks. They will receive notifications to start taking breaks and also notifications to remind them to check on tasks.  
+**Description**: The user can receive notifications to keep on top of tasks. They will receive notifications to remind them to check on tasks.  
 
 **JTBD**: Notifications & Keeping Track of Deadlines  
 
 **User Path**:  
-1. User creates a new task to workout during a certain time frame.  
-2. User begins receiving notifications for breaks and other activities like exercising.
+1. User allows Achievo notifications
 3. User also gets hourly notifications to remind them of tasks.
 
 **UI/UX Mock-Up**:  
@@ -110,14 +109,10 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 
 **User Path**:  
 1. User opens the Chrome extension and clicks on the **“Add” (+)** button.  
-2. A pop-up appears asking the user to choose between:  
-   - Uploading a syllabus  
-   - Adding a new "to-do"
-3. User selects **Add To-Do** to better describe their situation.  
 4. User is brought to a separate page to manually add a new event to their calendar.  
 5. User submits the desired change.  
 6. AI updates the schedule accordingly, shifting deadlines if necessary.  
-7. User is returned to the updated calendar view.  
+7. User is returned to the updated tasks view.  
 8. User can export the updated calendar as an `.ics` file.  
 
 **UI/UX Mock-Up**:  
@@ -138,7 +133,7 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 
 **UI/UX Mock-Up**:  
 
-![CUJ #7 mockup](./cuj_mockups/canvas.png)  
+![CUJ #7 mockup](./cuj_mockups/canvas.png) 
 
 ## Functional Requirements  
 **Priority Features — Gamification & Notifications**
