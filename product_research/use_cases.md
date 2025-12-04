@@ -73,12 +73,12 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 **User Path**:
 1. The user opens the Chrome extension and signs up or logs in.
 2. First-time users are automatically directed to the onboarding flow.
-3. The user uploads their timetable for parsing and verification.
-4. The user selects their interests and availability preferences through a short quiz.
-5. The user connects their Canvas account to sync courses and deadlines.
-6. The user uploads course syllabi to extract assignments and tasks.
-7. The user enables or disables notifications (breaks, reminders, progress updates).
-8. The user reviews a setup summary and confirms completion.
+3. The user **uploads their timetable** for parsing and verification.
+4. The user **selects their interests**.
+5. The user **connects their Canvas account** to sync courses and deadlines.
+6. The user **uploads course syllabi** to extract assignments and tasks.
+7. The user enables or disables **notifications**.
+8. The user learn what the product offers.
 9. The user is redirected to the main dashboard.
 10. All onboarding steps can be revisited later in the Settings page.
 
