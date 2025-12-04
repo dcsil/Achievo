@@ -5,6 +5,14 @@ This Chrome extension consists of a frontend extension and a backend API server.
 
 **Important Note**: This extension is **not published to the Chrome Web Store**. To use the application, you must manually load it into Chrome's extension manager using Developer Mode.
 
+### Required Environment Variables
+- GEMINI_API_KEY - Google Gemini API key for AI functionality (needed for: Render deployment, local dev)
+- SUPABASE_KEY - Supabase API key for database access (needed for: Render deployment, local dev)
+- SUPABASE_URL - Supabase project URL (needed for: Render deployment, local dev)
+- RENDER_DEPLOY_HOOK - Webhook URL for Render deployments (needed for: GitHub auto deployment)
+- TEST_SUPABASE_KEY - Testing environment Supabase key (needed for: GitHub auto test)
+- TEST_SUPABASE_URL - Testing environment Supabase URL (needed for: GitHub auto test)
+
 ### Backend Deployment (Render.com)
 
 #### Current Production Setup
@@ -138,3 +146,5 @@ This will create a `build` folder containing the compiled extension.
 
 ### Reference
 - Chrome Extension Testing Guide: https://support.google.com/chrome/a/answer/2714278?hl=en
+- Frontend Development Readme: https://github.com/dcsil/achievo-app/tree/main/frontend
+- Backend Development Readme: https://github.com/dcsil/achievo-app/blob/main/backend/README.md
