@@ -159,7 +159,6 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 
 1. Performance:
    - Each page and extension popup loads in ≤3 seconds.
-   - Notifications fire within ±2 minutes of scheduled time; break reminders within ±30 seconds.
    - Schedule generation (deprioritized): finishes within 30 seconds for a syllabus up to 10MB in PDF format.
 2. Usability:
    - All key features (task completion, notifications, rewards) accessible within 2 clicks from the dashboard.
