@@ -36,7 +36,7 @@ This Chrome extension consists of a frontend extension and a backend API server.
 
 #### Configuration Setup
 
-**For Production (using deployed backend):**
+**For Production (using deployed backend, default):**
 1. Navigate to `frontend/src/config/api.ts`
 2. Set `const ENVIRONMENT = 'production'`
 
