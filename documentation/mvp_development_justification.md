@@ -157,7 +157,7 @@ We built the technical foundation needed to deliver reliable end-to-end flows, i
 
 - Chrome extension frontend with React/TypeScript
 
-- 77% backend test coverage + 89% frontend test converge, and full CI/CD pipeline
+- 75% backend test coverage + 89% frontend test converge, and full CI/CD pipeline
 
 ### Why Other Features Were Deferred
 We excluded features like onboarding quizzes, calendar export, multi-syllabus upload, virtual pets, advanced AI rescheduling, and social systems because:
