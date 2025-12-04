@@ -113,6 +113,7 @@ Too many features reduced focus and slowed testing. User feedback showed quality
 
 **Resulting Pivot:**
 - Deferred advanced features (multi-syllabus upload, full onboarding quiz, virtual pets, streaks, .ics export, Pomodoro, cross-platform support) to Phase II/III.
+- Split out CUJ 7 (Canvas Task Completion) from CUJ 2 (Task Completion). This is because the user steps for completing a task/assignment from Canvas is different from in our extension.
 - This ensured a stable, testable MVP aligned with core student pain points.
 
 
