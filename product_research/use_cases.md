@@ -83,7 +83,7 @@ The remaining CUJs will be included at a conceptual level to support storytellin
 
 **UI/UX Mock-Up**:  
 
-![CUJ #4 mockup](./cuj_mockups/cuj_04.png)
+![CUJ #4 mockup](./cuj_mockups/onboarding.png)
 
 ### 5. Schedule Generation
 **Description**: The user uploads their time table and/or syllabi, and the AI extract todos and generated detailed task breakdowns. Users can export these as calendar files for easier integration into their workflow.  
