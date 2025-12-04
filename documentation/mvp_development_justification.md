@@ -150,7 +150,7 @@ All three CUJs address validated pain points discovered through A6 and A8 user r
 We built the technical foundation needed to deliver reliable end-to-end flows, including:
 - Supabase PostgreSQL database (post-Databricks pivot for speed and reliability)
 
-- Flask REST API with 11 core endpoints
+- Flask REST API with various core endpoints
 
 - Gemini API for syllabus parsing and schedule generation
 
